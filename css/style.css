@@ -1,0 +1,116 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+header {
+    position: relative;
+    color: white;
+    background-color: dodgerblue;
+    height: 100px;
+    width: 100%;
+    margin: 0 0;
+}
+
+.header-content { 
+    height: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-items: center;
+    justify-content: space-between;
+    align-self: flex-end;
+}
+
+.header-title {
+    display: flex;
+    align-self: center;
+}
+
+.header-links {
+    margin: 0 auto;
+    display: flex;
+    grid-column: 3 / 4;
+    align-self: end;
+    display: inline-flex;
+}
+
+.header-link-item {
+    display: inline-flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+
+.header-link {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+main {
+    text-align: center;
+    height: 400px;
+}
+
+.container {
+    height: 100%;
+    display: grid;
+}
+
+#newsletter-section {
+    background-color: dodgerblue;
+    color: white;
+    height: 100px;
+}
+
+#newsletter-section button {
+    height: 35px;
+    width: 100px;
+    background-color: red;
+    color: white;
+}
+
+#newsletter-section input {
+    height: 30px;
+    margin-right: 20px;
+}
+
+.news {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-items: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    justify-items: center;
+    justify-content: space-around;
+}
+
+.card {
+    display: grid;
+    align-content: center;
+    background-color: white;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+    height: 300px;
+    width: 200px;
+    margin: 10px 10px;
+}
+
+.card img {
+    height: 175px;
+    width: 150px;
+    margin: 20px 20px 20px 20px;
+}
+
+.card h3 {
+    text-align: center;
+}
