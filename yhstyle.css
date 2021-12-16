@@ -1,0 +1,68 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.head{
+    min-height: 96px;
+    background-color:plum;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+}
+
+.head h2{
+    color: white;
+}
+.head li {
+    display:inline;
+    margin : 20px;  
+}
+
+.head li a {
+    text-decoration: none;
+    color: white;
+}
+
+.head ul{
+    align-self: flex-end;
+    margin-bottom: 10px ;
+}
+
+.h1{ background-color:rgb(173, 179, 178);
+    height: 200px;
+
+}
+
+.sub{
+    background-color: plum;
+    display:flex;
+    height: 100px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+input, button{
+    display:inline;
+}
+
+.imgs{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.card {
+    margin-top: 50px;
+}
+
+.container{
+    width:100% ;
+    margin: auto;
+    text-align: center;
+}
+
+h3{
+    color: white;
+}
