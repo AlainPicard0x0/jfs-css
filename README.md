@@ -1,5 +1,5 @@
 # <a href="https://txlocnguyen.github.io/jfs-css/">jfs-css</a>
-
+Finished! Check out my work <a href="https://txlocnguyen.github.io/jfs-css/">here</a>.
 # Website Styling Exercise
 
 * **Objective** - To add CSS to a Website.
