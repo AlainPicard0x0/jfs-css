@@ -1,34 +1,40 @@
-*{
-	margin: 0;
-	padding: 0;
-	border: 0;
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
     font-family: 'Oswald', sans-serif;
-font-family: 'PT Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif;
 }
-body{
-    background: rgb(221,221,237);
-background: linear-gradient(90deg, rgba(221,221,237,1) 35%, rgba(64,154,172,1) 100%);
+
+body {
+    background: rgb(221, 221, 237);
+    background: linear-gradient(90deg, rgba(221, 221, 237, 1) 35%, rgba(64, 154, 172, 1) 100%);
 }
-#nav{
+
+#nav {
     background: #CC93B7;
-	background: linear-gradient(to bottom,  #CC43B1,  #FF33AD);
-	color: #FFF;
-	height: 52px;
-	padding-left: 18px;
-	border-radius: 15px;
+    background: linear-gradient(to bottom, #CC43B1, #FF33AD);
+    color: #FFF;
+    height: 52px;
+    padding-left: 18px;
+    border-radius: 15px;
 }
-#nav h2{
+
+#nav h2 {
     text-transform: uppercase;
     position: relative;
     top: 15px;
 }
-ul{
+
+ul {
     float: right;
     list-style-type: none;
 }
+
 li {
     float: left;
-  }
+}
+
 li a {
     display: inline;
     color: darkblue;
@@ -36,53 +42,71 @@ li a {
     padding: 30px;
     text-decoration: none;
     font-family: 'Courier New', Courier, monospace;
-  }
-li a:hover{
+}
+
+li a:hover {
     color: white;
-  }
-#main-section h1{
+}
+
+#main-section h1 {
     text-align: center;
     text-transform: uppercase;
     margin-top: 75px;
     margin-bottom: 150px;
     animation: color-change 2s infinite;
 }
-@keyframes color-change{
-    0% { color: red; }
-    50% { color: blue; }
-    100% { color: greenyellow; }
+
+@keyframes color-change {
+    0% {
+        color: red;
+    }
+
+    50% {
+        color: blue;
+    }
+
+    100% {
+        color: greenyellow;
+    }
 }
-#newsletter-section{
+
+#newsletter-section {
     background: #0099CC;
-	background: linear-gradient(to bottom,  #CC2310,  #FF6242);
-	color: #FFF;
-	height: 45px;
-	padding-left: 18px;
-	border-radius: 10px;
+    background: linear-gradient(to bottom, #CC2310, #FF6242);
+    color: #FFF;
+    height: 45px;
+    padding-left: 18px;
+    border-radius: 10px;
     margin-bottom: 30px;
 }
-#email{
-position: absolute;
-right: 250px;
+
+#email {
+    position: absolute;
+    right: 250px;
 }
-#subscribe-btn{
+
+#subscribe-btn {
     position: absolute;
     right: 175px;
     background-color: violet;
 }
-#subscribe-btn:hover{
+
+#subscribe-btn:hover {
     background-color: red;
 }
-#card-section .container{
+
+#card-section .container {
     margin-top: 100px;
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
 }
-.card{
+
+.card {
     border-style: solid;
     border-width: 10px;
-    border-image: linear-gradient(45deg, rgb(0,143,104), rgb(250,224,66)) 1;
+    border-image: linear-gradient(45deg, rgb(0, 143, 104), rgb(250, 224, 66)) 1;
 }
-#card-section .container h3{
+
+#card-section .container h3 {
     text-align: center;
 }
